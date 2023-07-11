@@ -1,12 +1,12 @@
 # credit_card_defaulters
 To build a classification methodology to determine whether a person defaults the credit card payment for the next month.
 
-# Data Description
+# Data Description 🧑‍🏫
 The client will send data in multiple sets of files in batches at a given location. The data has been extracted from the census bureau. 
 The data contains 32561 instances with the following attributes:
 Features:
 
-1.LIMIT_BAL: continuous.Credit Limit of the person.
+1.LIMIT_BAL: continuous.Credit Limit of the person.  
 2.SEX: Categorical: 1 = male; 2 = female
 3.EDUCATION: Categorical: 1 = graduate school; 2 = university; 3 = high school; 4 = others
 4.MARRIAGE: 1 = married; 2 = single; 3 = others
@@ -19,7 +19,7 @@ Features:
 Whether a person shall default in the credit card payment or not.
 9.default payment next month:  Yes = 1, No = 0.
 
-# Model Training 
+# Model Training 🙌
 1) Data Export from Db - The data in a stored database is exported as a CSV file to be used for model training.
 2) Data Preprocessing   
 a)Check for null values in the columns. If present, impute the null values using the categorical imputer.
